@@ -27,5 +27,4 @@ A basic cmd calculator, my first project made in C++. Supports parasyntheses
 * `log(n)` - Logarithm
 * `exp(n) ` - Exponentiation 
 #
-I'd really appreciate if someone would review my code and tell me what am I doing wrong and what could I do better
 ###### This README was inspired by a README from [btmills calculator](https://github.com/btmills/calculator)
