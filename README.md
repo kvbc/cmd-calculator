@@ -17,4 +17,5 @@ A basic cmd calculator, my first project made in C++
 * cbrt(...) - Cube Root
 ##### More functions coming soon
 #
+I'd really appreciate if someone would review my code and tell me what am I doing wrong and what could I do better
 ###### This README was inspired by README from [btmills calculator](https://github.com/btmills/calculator)
