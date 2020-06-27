@@ -13,8 +13,8 @@ A basic cmd calculator, my first project made in C++
 
 # Functions
 
-* sqrt(n) Square Root
-* cbrt(n) Cube Root
+* sqrt(n) - Square Root
+* cbrt(n) - Cube Root
 ##### More functions coming soon
 #
 ###### This README was inspired by README from [btmills calculator](https://github.com/btmills/calculator)
