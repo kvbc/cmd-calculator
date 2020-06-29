@@ -13,18 +13,18 @@ A command-line calculator, my first project made in C++. Containing a couple of 
 
 # Functions
 
-* `abs()` Absolute value
-* `floor()` Floor
-* `ceil()` Ceiling
-* `sin()` Sine
-* `cos()` Cosine
-* `tan()` Tangent
-* `asin()` Arcsine
-* `acos()` Arccosine
-* `atan()` Arctangent
-* `sqrt()` Square root
-* `cbrt()` Cube root
-* `log()` Logarithm
-* `exp() ` Exponentiation 
+* `abs()` - Absolute value
+* `floor()` - Floor
+* `ceil()` - Ceiling
+* `sin()` - Sine
+* `cos()` - Cosine
+* `tan()` - Tangent
+* `asin()` - Arcsine
+* `acos()` - Arccosine
+* `atan()` - Arctangent
+* `sqrt()` - Square root
+* `cbrt()` - Cube root
+* `log()` - Logarithm
+* `exp() ` - Exponentiation 
 #
 ###### This README was inspired by a README from [btmills calculator](https://github.com/btmills/calculator)
