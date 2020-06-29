@@ -1,6 +1,6 @@
 # cmd-calculator
 
-A basic cmd calculator, my first project made in C++. The original version was written without using stack. You can find the version using stack under the `stack-version` folder.
+A cmd calculator, my first project made in C++. The original version was written without using stack. You can find the version using stack under the `stack-version` folder.
 
 # Operators
 
