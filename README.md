@@ -1,6 +1,6 @@
-# cpp-cmd-calculator
+# cmd-calculator
 
-A basic cmd calculator, my first project made in C++. Supports parasyntheses
+A basic cmd calculator, my first project made in C++. The original version was written without using stack. The stack version of this calculator is under the `stack-version` folder.
 
 # Operators
 
