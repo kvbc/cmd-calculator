@@ -1,6 +1,6 @@
 # cmd-calculator
 
-A cmd calculator, my first project made in C++. Supports parasyntheses
+A command-line calculator, my first project made in C++. Containing a couple of mathematical operators and functions. This calculator was written without using stack, as a challenge to create a functioning calculator without converting the standard infix syntax to postfix notation `(Reverse Polish Notation)` and as I said before - the stack.
 
 # Operators
 
