@@ -1,6 +1,6 @@
 # cmd-calculator
 
-A command-line calculator, my first project made in C++. Containing a couple of mathematical operators and functions. This calculator was written without using the stack, as a challenge to create a functioning calculator with standard infix notation and as I said before - the stack. The return type of most of the operations is `long double`, where using the stack we could use `void*` as in [btmills calculator](https://github.com/btmills/calculator). That's why this calculator is a complete tragedy, but hey! It works, right?
+A command-line calculator, my first project made in C++. Containing a couple of mathematical operators and functions. This calculator was written without using the stack, as a challenge to create a functioning calculator with the standard infix notation and as I said before - the stack. The return type of most of the operations is `long double`, where using the stack we could use `void*` as in [btmills calculator](https://github.com/btmills/calculator). That's why this calculator is a complete tragedy, but hey! It works, right?
 
 # Operators
 
