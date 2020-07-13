@@ -39,7 +39,7 @@ void initEqu(std::string &equ) {
 // (contains nothing other than digits, operators, parasyntheses and '.')
 bool legalEqu(const std::string &equ) {
     std::string illegalChars = std::regex_replace(equ, std::regex("[.0-9aceflstv^*/%_+()-]"), "");
-    if(illegalChars.length()) {
+    if(illegalChars.length() > 0) {
         log::error("Illegal character(s) in mathematical equation");
         return false;
     }
