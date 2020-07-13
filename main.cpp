@@ -1,3 +1,4 @@
+#include <iomanip>
 #include <iostream>
 #include <string>
 #include "equ.h"
@@ -7,7 +8,7 @@ void getEqu() {
     std::string equ;
     std::cout << "Equation: ";
     std::getline(std::cin, equ);
-    std::cout << "Result: " << calcEqu(equ) << "\n\n";
+    std::cout << "Result: " << std::setprecision(14) << calcEqu(equ) << "\n\n";
     getEqu();
 }
 
