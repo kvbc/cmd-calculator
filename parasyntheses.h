@@ -40,5 +40,5 @@ bool calcAllParasyntheses(std::string &equ) {
     int opBracket = std::count(equ.begin(), equ.end(), ')');
     int clBracket = std::count(equ.begin(), equ.end(), '(');
     if(opBracket != clBracket) log::error("Unmatched parasyntheses");
-    return opBracket == clBracket;
+    return true; // opBracket == clBracket
 }
