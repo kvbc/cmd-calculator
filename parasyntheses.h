@@ -8,7 +8,7 @@ long double calcEqu(const std::string &equ, bool legalCheck);
 // Finds matching closing bracket in equation.
 int findClBracket(const std::string &equ, int start) {
     int opBracket = 0;
-    for(int i=start; i<equ.length(); i++)
+    for(int i = start; i < equ.length(); i++)
         if(equ[i] == '(') opBracket++;
         else if(equ[i] == ')') {
             if(!opBracket) return i;
