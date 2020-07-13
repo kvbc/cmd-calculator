@@ -5,7 +5,7 @@
 #include "parasyntheses.h"
 #include "log.h"
 
-// Replaces all the functions in the equation with it's operator.
+// Replaces all the functions in the equation with it's operator
 void initFunc(std::string &equ, const std::string &func, const std::string &op) {
     while(equ.find(func + '(') != std::string::npos) {
         int funcP = equ.find(func + '(');
@@ -16,7 +16,7 @@ void initFunc(std::string &equ, const std::string &func, const std::string &op) 
     }
 }
 
-// Initializes the equation for easier use of functions.
+// Initializes the equation for easier use of functions
 void initEqu(std::string &equ) {
     equ = std::regex_replace(equ, std::regex(" "), "");
     equ = std::regex_replace(equ, std::regex("-"), "_");
@@ -36,7 +36,7 @@ void initEqu(std::string &equ) {
 }
 
 // Checks if the equation is legal
-// (contains nothing other than digits, operators, parasyntheses and '.').
+// (contains nothing other than digits, operators, parasyntheses and '.')
 bool legalEqu(const std::string &equ) {
     std::string illegalChars = std::regex_replace(equ, std::regex("[.0-9aceflstv^*/%_+()-]"), "");
     if(illegalChars.length()) {
@@ -46,7 +46,7 @@ bool legalEqu(const std::string &equ) {
     return true;
 }
 
-// Calculates the equation.
+// Calculates the equation
 long double calcEqu(const std::string &equ, bool legalCheck = true) {
     std::string equCpy = equ;
     initEqu(equCpy);
